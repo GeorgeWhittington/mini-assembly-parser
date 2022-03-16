@@ -1,0 +1,8 @@
+// x = x + y
+(1) z = y
+(2) if (z == 0) goto 6
+(3) x = x + 1
+(4) z = z - 1
+(5) goto 2
+(6) stop
+// TODO: Does this deal with x = x + x properly?
