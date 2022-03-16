@@ -235,7 +235,7 @@ class AssemblyParser:
 
 
 if __name__ == "__main__":
-    parser = AssemblyParser("mini-assembler-1.txt", start_state={"y": 5})
+    parser = AssemblyParser("examples/mini-assembler-1.txt", start_state={"y": 5})
     parser.parse_assembly()
 
     pp = pprint.PrettyPrinter(indent=4)
